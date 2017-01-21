@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{B9CEF7AC-ECB8-9FFA-C882-DC7A822F4284}") = "Acrophobia Effector Cardboard", "Assembly-CSharp.csproj", "{4EA5377E-ACAE-F240-1D66-8FD010B1EB1E}"
+EndProject
+Project("{B9CEF7AC-ECB8-9FFA-C882-DC7A822F4284}") = "Acrophobia Effector Cardboard", "Assembly-CSharp-Editor.csproj", "{172A606D-5DE0-65CB-0300-A229D00F44E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EA5377E-ACAE-F240-1D66-8FD010B1EB1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EA5377E-ACAE-F240-1D66-8FD010B1EB1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EA5377E-ACAE-F240-1D66-8FD010B1EB1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EA5377E-ACAE-F240-1D66-8FD010B1EB1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{172A606D-5DE0-65CB-0300-A229D00F44E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{172A606D-5DE0-65CB-0300-A229D00F44E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{172A606D-5DE0-65CB-0300-A229D00F44E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{172A606D-5DE0-65CB-0300-A229D00F44E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
