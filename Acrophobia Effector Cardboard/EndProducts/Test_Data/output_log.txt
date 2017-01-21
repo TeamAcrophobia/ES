@@ -1,0 +1,59 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.0]
+    Renderer: Intel(R) G45/G43 Express Chipset (ID=0x2e22)
+    Vendor:   Intel
+    VRAM:     391 MB
+    Driver:   8.15.10.1994
+Begin MonoManager ReloadAssembly
+Platform assembly: G:\ES\Acrophobia Effector Cardboard\EndProducts\Test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading G:\ES\Acrophobia Effector Cardboard\EndProducts\Test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: G:\ES\Acrophobia Effector Cardboard\EndProducts\Test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading G:\ES\Acrophobia Effector Cardboard\EndProducts\Test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: G:\ES\Acrophobia Effector Cardboard\EndProducts\Test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading G:\ES\Acrophobia Effector Cardboard\EndProducts\Test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: G:\ES\Acrophobia Effector Cardboard\EndProducts\Test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading G:\ES\Acrophobia Effector Cardboard\EndProducts\Test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: G:\ES\Acrophobia Effector Cardboard\EndProducts\Test_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading G:\ES\Acrophobia Effector Cardboard\EndProducts\Test_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: G:\ES\Acrophobia Effector Cardboard\EndProducts\Test_Data\Managed\Google.ProtocolBuffers.dll (this message is harmless)
+Loading G:\ES\Acrophobia Effector Cardboard\EndProducts\Test_Data\Managed\Google.ProtocolBuffers.dll into Unity Child Domain
+- Completed reload, in  0.139 seconds
+Platform assembly: G:\ES\Acrophobia Effector Cardboard\EndProducts\Test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: G:\ES\Acrophobia Effector Cardboard\EndProducts\Test_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 2.069741 ms
+GVR Unity SDK Version: 1.1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: ee0 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.987902 ms
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 305.
+Total: 0.268797 ms (FindLiveObjects: 0.039796 ms CreateObjectMapping: 0.020945 ms MarkObjects: 0.181176 ms  DeleteObjects: 0.026181 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.576693 ms
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 368.
+Total: 0.492213 ms (FindLiveObjects: 0.048523 ms CreateObjectMapping: 0.025134 ms MarkObjects: 0.282412 ms  DeleteObjects: 0.134747 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.578438 ms
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 305.
+Total: 0.291837 ms (FindLiveObjects: 0.043286 ms CreateObjectMapping: 0.037352 ms MarkObjects: 0.195838 ms  DeleteObjects: 0.014312 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.561682 ms
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 368.
+Total: 0.434963 ms (FindLiveObjects: 0.055854 ms CreateObjectMapping: 0.035956 ms MarkObjects: 0.212594 ms  DeleteObjects: 0.129162 ms)
+
