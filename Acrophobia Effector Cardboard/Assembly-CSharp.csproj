@@ -46,6 +46,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Game Assets\ChangeToScene.cs" />
+     <Compile Include="Assets\Game Assets\QuitApplication.cs" />
      <Compile Include="Assets\GoogleVR\Legacy\Scripts\GazeInputModule.cs" />
      <Compile Include="Assets\GoogleVR\Legacy\Scripts\GvrHead.cs" />
      <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\GvrCameraUtils.cs" />
@@ -148,7 +150,7 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="Google.ProtocolBuffers">
- <HintPath>F:/thesisfiles/Acrophobia Effector Cardboard/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
+ <HintPath>F:/ES/Acrophobia Effector Cardboard/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

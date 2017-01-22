@@ -75,7 +75,7 @@
      <None Include="Assets\GoogleVR\Legacy\Resources\SolidColor.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUnityCompatibility.cginc" />
  <Reference Include="Assembly-UnityScript">
- <HintPath>F:/thesisfiles/Acrophobia Effector Cardboard/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ <HintPath>F:/ES/Acrophobia Effector Cardboard/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
@@ -132,7 +132,7 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="Google.ProtocolBuffers">
- <HintPath>F:/thesisfiles/Acrophobia Effector Cardboard/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
+ <HintPath>F:/ES/Acrophobia Effector Cardboard/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
