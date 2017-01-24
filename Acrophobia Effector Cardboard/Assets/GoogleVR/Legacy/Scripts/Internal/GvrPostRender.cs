@@ -96,22 +96,17 @@ public class GvrPostRender : MonoBehaviour {
     if (Camera.current != cam)
       return;
     GvrViewer.Instance.UpdateState();
-    var correction = GvrViewer.Instance.DistortionCorrection;
+    bool correctionEnabled = GvrViewer.Instance.DistortionCorrectionEnabled;
     RenderTexture stereoScreen = GvrViewer.Instance.StereoScreen;
-    if (stereoScreen == null || correction == GvrViewer.DistortionCorrectionMethod.None) {
+    if (stereoScreen == null || !correctionEnabled) {
       return;
     }
-    if (correction == GvrViewer.DistortionCorrectionMethod.Native
-        && GvrViewer.Instance.NativeDistortionCorrectionSupported) {
-      GvrViewer.Instance.PostRender(stereoScreen);
-    } else {
-      if (distortionMesh == null || GvrViewer.Instance.ProfileChanged) {
-        RebuildDistortionMesh();
-      }
-      meshMaterial.mainTexture = stereoScreen;
-      meshMaterial.SetPass(0);
-      Graphics.DrawMeshNow(distortionMesh, transform.position, transform.rotation);
+    if (distortionMesh == null || GvrViewer.Instance.ProfileChanged) {
+      RebuildDistortionMesh();
     }
+    meshMaterial.mainTexture = stereoScreen;
+    meshMaterial.SetPass(0);
+    Graphics.DrawMeshNow(distortionMesh, transform.position, transform.rotation);
 
     stereoScreen.DiscardContents();
     if (!GvrViewer.Instance.NativeUILayerSupported) {

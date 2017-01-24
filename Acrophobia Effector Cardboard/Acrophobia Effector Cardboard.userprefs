@@ -1,8 +1,9 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\GoogleVR\Legacy\Scripts\Internal\GvrEye.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ElevatorOpen.cs">
     <Files>
-      <File FileName="Assets\GoogleVR\Legacy\Scripts\Internal\GvrEye.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ElevatorOpen.cs" Line="46" Column="4" />
+      <File FileName="Assets\Scripts\BackInteractionCube.cs" Line="36" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
