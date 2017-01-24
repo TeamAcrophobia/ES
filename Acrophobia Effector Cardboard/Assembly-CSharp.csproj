@@ -46,10 +46,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Game Assets\Scripts\CrosshairGUI.cs" />
-     <Compile Include="Assets\Game Assets\Scripts\ElevatorButton.cs" />
-     <Compile Include="Assets\Game Assets\Scripts\ElevatorController.cs" />
-     <Compile Include="Assets\Game Assets\Scripts\InteractManager.cs" />
      <Compile Include="Assets\GoogleVR\Legacy\Scripts\GvrHead.cs" />
      <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\GvrCameraUtils.cs" />
      <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\GvrEye.cs" />
@@ -97,6 +93,7 @@
      <Compile Include="Assets\Scripts\ElevatorOpen.cs" />
      <Compile Include="Assets\Scripts\ExitInteractionCube.cs" />
      <Compile Include="Assets\Scripts\LiftButtonInteraction.cs" />
+     <Compile Include="Assets\Scripts\PlatformButtonInteraction.cs" />
      <Compile Include="Assets\Scripts\StartInteractionCube.cs" />
      <Compile Include="Assets\Scripts\VRAutoWalk.cs" />
      <Compile Include="Assets\Scripts\VRLookWalk.cs" />
@@ -110,6 +107,9 @@
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\Plugins\Android\AndroidManifest-Cardboard.xml" />
      <None Include="Assets\GoogleVR\Legacy\Resources\SolidColor.shader" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -124,6 +124,9 @@
  </Reference>
  <Reference Include="UnityEngine.HoloLens">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.VR">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>

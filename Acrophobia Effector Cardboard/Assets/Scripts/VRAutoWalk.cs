@@ -5,7 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(CharacterController))]
 public class VRAutoWalk : MonoBehaviour {
 	//how fast to move
-	public float speed = 3.0f;
+	public float speed = 50.0f;
 	//Should the Character Controller forward or not?
 	public bool moveFoward;
 	//CharacterController script
