@@ -30,6 +30,6 @@ public class StartInteractionCube : MonoBehaviour {
 	}
 
 	public void PointerClick(){
-		//SceneManager.LoadScene (1);
+		SceneManager.LoadScene (3);
 	}
 }
