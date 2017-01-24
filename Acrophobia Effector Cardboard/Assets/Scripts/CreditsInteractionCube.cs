@@ -12,6 +12,8 @@ public class CreditsInteractionCube : MonoBehaviour {
 
 	private bool gazedAt;
 
+	public GameObject creditsGameObject;
+
 	// Use this for initialization
 	void Start () {
 
@@ -19,7 +21,7 @@ public class CreditsInteractionCube : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		if(gazedAt){
+		if(gazedAt && creditsGameObject.name=="Credits"){
 			timer += Time.deltaTime;
 
 			if(timer >= gazeTime){

@@ -46,6 +46,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Game Assets\Scripts\CrosshairGUI.cs" />
+     <Compile Include="Assets\Game Assets\Scripts\ElevatorButton.cs" />
+     <Compile Include="Assets\Game Assets\Scripts\ElevatorController.cs" />
+     <Compile Include="Assets\Game Assets\Scripts\InteractManager.cs" />
      <Compile Include="Assets\GoogleVR\Legacy\Scripts\GvrHead.cs" />
      <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\GvrCameraUtils.cs" />
      <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\GvrEye.cs" />
@@ -88,7 +92,9 @@
      <Compile Include="Assets\GoogleVR\Scripts\UI\IGvrGazeResponder.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrFPS.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrIntent.cs" />
+     <Compile Include="Assets\Scripts\BackInteractionCube.cs" />
      <Compile Include="Assets\Scripts\CreditsInteractionCube.cs" />
+     <Compile Include="Assets\Scripts\ElevatorOpen.cs" />
      <Compile Include="Assets\Scripts\ExitInteractionCube.cs" />
      <Compile Include="Assets\Scripts\StartInteractionCube.cs" />
      <Compile Include="Assets\Scripts\VRAutoWalk.cs" />
@@ -96,15 +102,16 @@
      <None Include="Assets\GoogleVR\Distortion\GvrDistortion.cginc" />
      <None Include="Assets\GoogleVR\Legacy\Resources\UnlitTexture.shader" />
      <None Include="Assets\Plugins\Android\proguard-gvr.txt" />
-     <None Include="Assets\Game Assets\ReadMe.txt" />
      <None Include="Assets\Game Assets\The City\readme The City.txt" />
-     <None Include="Assets\Game Assets\Read-me.txt" />
      <None Include="Assets\Game Assets\Road\ReadMe.txt" />
      <None Include="Assets\Plugins\Android\AndroidManifest-Daydream.xml" />
      <None Include="Assets\GoogleVR\Resources\UI\GvrReticleShader.shader" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\Plugins\Android\AndroidManifest-Cardboard.xml" />
      <None Include="Assets\GoogleVR\Legacy\Resources\SolidColor.shader" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -120,11 +127,14 @@
  <Reference Include="UnityEngine.HoloLens">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.VR">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="Google.ProtocolBuffers">
- <HintPath>E:/ES/Acrophobia Effector Cardboard/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
+ <HintPath>G:/ES/Acrophobia Effector Cardboard/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
