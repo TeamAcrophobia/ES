@@ -40,24 +40,13 @@ public class Level1Interaction : MonoBehaviour {
 
 	public void PointerClick(){
 
-		if(Level1.transform.name=="AnxietyLevel1"){
+		if(Level1.name=="AnxietyLevel1"){
 			Debug.Log ("Sample");
-		}
-
-		else if(Level2.transform.name=="AnxietyLevel2"){
-			Debug.Log ("Sample2");
-		}
-
-		else if(Level3.transform.name=="AnxietyLevel3"){
-			Debug.Log ("Sample3");
-		}
-
-		else if(Level4.transform.name=="AnxietyLevel4"){
-			Debug.Log ("Sample4");
-		}
-
-		else if(Level5.transform.name=="AnxietyLevel5"){
-			Debug.Log ("Sample5");
+			Level1.SetActive (true);
+			Level2.SetActive (false);
+			Level3.SetActive (false);
+			Level4.SetActive (false);
+			Level5.SetActive (false);
 		}
 	}
 }
