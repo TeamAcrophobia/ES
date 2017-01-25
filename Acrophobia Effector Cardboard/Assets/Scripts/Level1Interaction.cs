@@ -21,9 +21,12 @@ public class Level1Interaction : MonoBehaviour {
 
 	public GameObject Level5;
 
+	public GameObject remarks;
+
+	private int Level1anxiety;
+
 	// Use this for initialization
 	void Start () {
-
 	}
 
 	// Update is called once per frame
@@ -41,12 +44,12 @@ public class Level1Interaction : MonoBehaviour {
 	public void PointerClick(){
 
 		if(Level1.name=="AnxietyLevel1"){
-			Debug.Log ("Sample");
 			Level1.SetActive (true);
 			Level2.SetActive (false);
 			Level3.SetActive (false);
 			Level4.SetActive (false);
 			Level5.SetActive (false);
+			Level1anxiety = 1;
 		}
 	}
 }

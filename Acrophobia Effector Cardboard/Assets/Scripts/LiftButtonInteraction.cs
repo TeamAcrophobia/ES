@@ -42,7 +42,7 @@ public class LiftButtonInteraction : MonoBehaviour {
         if (isElevatorUp == false)
         {
             target = GameObject.Find("Lift");
-            target.gameObject.GetComponent<Animation>().Play("Elevator1");
+            target.gameObject.GetComponent<Animation>().Play("Elevator1Up");
             isElevatorUp = true;
         }
     }

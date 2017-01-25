@@ -97,7 +97,14 @@
      <Compile Include="Assets\Scripts\Level3Interaction.cs" />
      <Compile Include="Assets\Scripts\Level4Interaction.cs" />
      <Compile Include="Assets\Scripts\Level5Interaction.cs" />
+     <Compile Include="Assets\Scripts\LiftButton2Interaction.cs" />
+     <Compile Include="Assets\Scripts\LiftButton3Interaction.cs" />
      <Compile Include="Assets\Scripts\LiftButtonInteraction.cs" />
+     <Compile Include="Assets\Scripts\Plank1Interaction.cs" />
+     <Compile Include="Assets\Scripts\Plank2Interaction.cs" />
+     <Compile Include="Assets\Scripts\Plank3Interaction.cs" />
+     <Compile Include="Assets\Scripts\Plank4Interaction.cs" />
+     <Compile Include="Assets\Scripts\Plank5Interaction.cs" />
      <Compile Include="Assets\Scripts\PlatformButtonInteraction.cs" />
      <Compile Include="Assets\Scripts\StartInteractionCube.cs" />
      <Compile Include="Assets\Scripts\StartpointInteraction.cs" />
