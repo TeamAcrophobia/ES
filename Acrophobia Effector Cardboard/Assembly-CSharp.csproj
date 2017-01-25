@@ -93,9 +93,6 @@
      <Compile Include="Assets\Scripts\ElevatorOpen.cs" />
      <Compile Include="Assets\Scripts\ExitInteractionCube.cs" />
      <Compile Include="Assets\Scripts\Level1Interaction.cs" />
-     <Compile Include="Assets\Scripts\Level2Interaction.cs" />
-     <Compile Include="Assets\Scripts\Level3Interaction.cs" />
-     <Compile Include="Assets\Scripts\Level4Interaction.cs" />
      <Compile Include="Assets\Scripts\LiftButtonInteraction.cs" />
      <Compile Include="Assets\Scripts\PlatformButtonInteraction.cs" />
      <Compile Include="Assets\Scripts\StartInteractionCube.cs" />
